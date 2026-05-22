@@ -1,0 +1,52 @@
+{
+  "about": {
+    "name": "Rashid Nuhu Busazi",
+    "title": "Data scientist",
+    "location": "Dar es Salaam, Tanzania",
+    "email": "rashidbusazi@gmail.com",
+    "phone": "+255 655 390 475",
+    "github": "https://github.com/rb583",
+    "linkedin": "https://linkedin.com/in/RASHIDBUSAZI",
+    "WhatsApp": "https://wa.me/255655390475",
+    "bio": "I'm a passionate developer with a background in data science and a love for building meaningful digital products.",
+    "available": true
+  },
+
+  "skills": {
+    "languages":  ["Python", "JavaScript", "HTML", "CSS", "SQL"],
+    "frameworks": ["Flask", "FastAPI", "React", "Node.js"],
+    "cloud":      ["Vercel", "Render", "AWS", "Google Cloud"],
+    "databases":  ["PostgreSQL", "MongoDB", "Firebase"],
+    "tools":      ["Git", "GitHub", "VS Code", "Postman"]
+  },
+
+  "projects": [
+    {
+      "id": 1,
+      "title": "Portfolio Website",
+      "description": "Personal portfolio with Flask backend deployed on Render and frontend on Vercel.",
+      "emoji": "🌐",
+      "tech": ["HTML/CSS", "Flask", "Vercel", "Render"],
+      "demo": "#",
+      "github": "#"
+    },
+    {
+      "id": 2,
+      "title": "Data Dashboard",
+      "description": "Interactive dashboard that visualizes datasets using Python and Chart.js.",
+      "emoji": "📊",
+      "tech": ["Python", "Chart.js", "Render"],
+      "demo": "#",
+      "github": "#"
+    },
+    {
+      "id": 3,
+      "title": "ML Price Predictor",
+      "description": "Machine learning model served as a REST API using Flask.",
+      "emoji": "🤖",
+      "tech": ["Python", "scikit-learn", "Flask"],
+      "demo": "#",
+      "github": "#"
+    }
+  ]
+}

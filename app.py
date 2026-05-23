@@ -14,10 +14,9 @@ app = Flask(__name__)
 # Allow frontend from Vercel
 CORS(app)
 
-# Example secure version:
-# CORS(app, origins=[
-#     "https://yourproject.vercel.app"
-# ])
+CORS(app, origins=[
+    "https://frontend-1-xi-five.vercel.app"
+])
 
 
 # ─────────────────────────────────────────────

@@ -63,7 +63,7 @@ def home():
         "message": "Portfolio Backend API running ✅"
     })
     
-@app.route("/static/<path:filename>")
+@app.route("/media/<path:filename>")
 def static_files(filename):
     return send_from_directory("static", filename)  
     

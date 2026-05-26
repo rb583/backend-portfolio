@@ -1,7 +1,7 @@
 import json
 import os
 
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template, send_from_directory
 from flask_cors import CORS
 from datetime import datetime
 
@@ -62,7 +62,11 @@ def home():
         "status": "online",
         "message": "Portfolio Backend API running ✅"
     })
-
+    
+@app.route("/static/<path:filename>")
+def static_files(filename):
+    return send_from_directory("static", filename)  
+    
 
 # ─────────────────────────────────────────────
 # API STATUS
